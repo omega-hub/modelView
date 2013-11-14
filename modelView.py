@@ -24,7 +24,6 @@ light = Light.create()
 light.setColor(Color("#807070"))
 light.setAmbient(Color("#202020"))
 light.setEnabled(True)
-scene.setMainLight(light)
 getDefaultCamera().addChild(light)
 
 light2 = Light.create()
